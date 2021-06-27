@@ -517,6 +517,7 @@ ul li,
 ol li {
 	display: block;
 	list-style: none;
+	font-weight: 500;
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
@@ -841,3 +842,42 @@ ol li {
 	display: flex;
 	justify-content:space-evenly;
 }
+
+.section-2 {
+	position: absolute;
+	top: -15px;
+	overflow: hidden;
+	z-index: -100;
+}
+
+#layer1 {
+	margin-top: 295px;
+	margin-left: 220px;
+}
+
+#layer2 {
+	margin-top: 20px;
+	margin-left: 330px;
+}
+
+#layer3 {
+	margin-top: 300px;
+	margin-left: 350px;
+}
+
+#layer4 {
+	margin-top: 300px;
+	margin-left: 350px;
+}
+
+#layer5 {
+	width: 120%;
+	margin-left: -20px;
+	opacity: 0.80;
+}
+
+#layer6 {
+	width: 120%;
+	margin-left: -20px;
+}
+

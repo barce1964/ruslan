@@ -69,17 +69,19 @@
                     </div>
                 </nav>
             </header>
-            <section class="section-2 mt-5" style="overflow: hidden;">
-                <div id="scene" class="scene" style="position: relative; background-image: url('img/bg/Layer6.png') center (center/cover) no-repeat;">
-                    <div data-depth="0.20"><img src="img/bg/Layer5.png"></div>
-                    <div data-depth="0.50" style="position: absolute; top: 300px; left: 350px;"><img src="img/bg/Layer4.png"></div>
-                    <div data-depth="0.30" style="position: absolute; top: 300px; left: 350px;"><img src="img/bg/Layer3.png"></div>
-                    <div data-depth="0.20" style="position: absolute; top: 20px; left: 350px;"><img src="img/bg/Layer2.png"></div>
-                    <div data-depth="0.10" style="position: absolute; top: 295px; left: 220px;"><img src="img/bg/Layer1.png"></div>
+            <section class="section-2 mt-5">
+                <div id="scene" class="scene">
+                    <div id="layer6" data-depth-x="0.05"><img src="img/bg/Layer6.png"></div>
+                    <div id="layer5" data-depth-x="0.10"><img src="img/bg/Layer5.png"></div>
+                    <div id="layer4" data-depth-x="0.40"><img src="img/bg/Layer4.png"></div>
+                    <div id="layer3" data-depth-x="0.30"><img src="img/bg/Layer3.png"></div>
+                    <div id="layer2" data-depth="0.07"><img src="img/bg/Layer2.png"></div>
+                    <div id="layer1" data-depth-x="0.15"><img src="img/bg/Layer1.png"></div>
                 </div>    
             </section>
         </div>
 
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
         <script src="js/parallax.js"></script>
         <script src="js/script.js"></script>
     </body>
