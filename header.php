@@ -51,16 +51,16 @@
                                 <div class="rd-navbar-nav-wrap">
                                     <ul class="rd-navbar-nav">
                                         <li class="rd-nav-item active">
-                                            <a class="rd-nav-link" href="index.html">Home</a>
+                                            <a class="rd-nav-link" href="index.php">Home</a>
                                         </li>
                                         <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="about.html">About me...</a>
+                                            <a class="rd-nav-link" href="about.php">About me...</a>
                                         </li>
                                         <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="portfolio.html">Portfolio</a>
+                                            <a class="rd-nav-link" href="portfolio.php">Portfolio</a>
                                         </li>
                                         <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="contacts.html">Contacts</a>
+                                            <a class="rd-nav-link" href="contacts.php">Contacts</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -69,29 +69,3 @@
                     </div>
                 </nav>
             </header>
-            <section class="section-2 mt-5">
-                <div id="scene1" class="scene">
-                    <div id="layer8" data-depth-x="0.05"><img src="img/bg/Layer8.png"></div>
-                    <div id="layer7" data-depth-x="0.10"><img src="img/bg/Layer7.png"></div>
-                    <div id="layer6" data-depth-x="0.40"><img src="img/bg/Layer6.png"></div>
-                    <div id="layer5" data-depth-x="0.30"><img src="img/bg/Layer5.png"></div>
-                    <div id="layer4" data-depth="0.07"><img src="img/bg/Layer4.png"></div>
-                    <div id="layer3" data-depth-x="0.15"><img src="img/bg/Layer3.png"></div>
-                    <div id="layer2" data-depth-x="0.25"><img src="img/bg/Layer2.png"></div>
-                    <div id="scene2" class="scene" data-depth="0.01">
-                        <div id="pr_layer1" data-depth="0.10">New<br>Opportunities</div>
-                        <div id="pr_layer2" data-depth="0.05">New<br>Opportunities</div>
-                        <div id="pr_layer3" data-depth="0.01">New<br>Opportunities</div>
-                    </div>
-                    <div id="scene3" class="scene">
-
-                    </div>
-                </div>    
-            </section>
-        </div>
-
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
-        <script src="js/parallax.js"></script>
-        <script src="js/script.js"></script>
-    </body>
-</html>

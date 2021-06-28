@@ -1,7 +1,7 @@
 .page {
 	position: relative;
 	overflow: hidden;
-	min-height: 100vh;
+	min-height: 50vh;
 }
 
 .page.fadeIn {
@@ -843,11 +843,20 @@ ol li {
 	justify-content:space-evenly;
 }
 
+.section {
+	height: 534px;
+}
+
 .section-2 {
+	height: 534px;
 	position: absolute;
 	top: -15px;
 	overflow: hidden;
 	z-index: -100;
+}
+
+#scene1 {
+	height: 534px;
 }
 
 #layer2 {
@@ -877,14 +886,14 @@ ol li {
 }
 
 #layer7 {
-	width: 120%;
+	height: 534px;
 	margin-left: -20px;
 	margin-top: 0px;
 	opacity: 0.80;
 }
 
 #layer8 {
-	width: 120%;
+	height: 534px;
 	margin-left: -20px;
 }
 
@@ -923,4 +932,15 @@ ol li {
 	line-height: 80px;
 	color: #FFFFFF;
 	text-align: center;
+}
+
+hr {
+	position: relative;
+	color: #AAAAAA;
+	top: 10px;
+}
+
+footer {
+	position: absolute;
+	top: 0px;
 }
