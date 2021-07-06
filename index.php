@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
 
-            <section class="section-2 mt-5">
+            <!-- <section class="section-2 mt-5"> -->
+            <section class="section">
                 <div id="scene1" class="scene">
                     <div id="layer8" data-depth-x="0.05"><img src="img/bg/Layer8.png"></div>
                     <div id="layer7" data-depth-x="0.10"><img src="img/bg/Layer7.png"></div>
@@ -14,8 +15,13 @@
                         <div id="pr_layer2" data-depth="0.05">New<br>Opportunities</div>
                         <div id="pr_layer3" data-depth="0.01">New<br>Opportunities</div>
                     </div>
-                    <div id="scene3" class="scene">
-
+                    <div id="fresh_ideas">
+                        <layer id="id_layer1">
+                            <div id="line_id1" class="line_ideas"></div>
+                            <div id="txt_id1" class="text_ideas">
+                                Fresh Ideas for Your Business
+                            </div>
+                        </layer>
                     </div>
                 </div>    
             </section>

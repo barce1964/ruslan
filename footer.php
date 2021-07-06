@@ -1,7 +1,7 @@
         <footer>
             <!-- <hr> -->
             <div id="rights">
-                Copiright © 2021. All rights reserved. Disign by Ruslan Tarayev.
+                Copyright © 2021. All rights reserved. Design by Ruslan Tarayev.
             </div>
         </footer>
 
